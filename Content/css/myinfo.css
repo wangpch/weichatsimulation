@@ -1,0 +1,39 @@
+﻿
+/*个人信息--头部*/
+.self-head{
+	background-color: #000;
+	height: 8%;
+	width: 100%;
+}
+.self-head.myinfo{
+	height: 100%;
+	font-size: 1.2em;
+	color: #eee;
+	margin: 0 auto;
+}
+.self-head .back{
+	float: left;
+	margin: 0.1em 0 0 0.6em;
+}
+.self-head .self-info{
+	font-size: 1.2em;
+	float: left;
+	margin:0.2em 0 0 1em;
+}
+.self .frt, .self .sec{
+	margin-top:1em;
+	background-color: #fff;
+	border: 1px solid red;
+	
+}
+.self .in{
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	clear: both;
+}
+.self .nme{
+	float: left;
+}
+.self .cont{
+	float: right;
+}

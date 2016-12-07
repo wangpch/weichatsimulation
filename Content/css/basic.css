@@ -1,0 +1,204 @@
+﻿@charset "utf-8";
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+html {
+    font-size:100px;
+}
+body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{ 
+	margin:0; padding:0;
+}
+h1,h2,h3,h4,h5,h6{ 
+	font-size:100%; font-weight:normal;
+}
+ol,ul{ 
+	list-style:none;
+}
+small {
+	/*small元素的大小是默认大小的0.875倍，即14像素（14/16=0.875）*/
+	font-size: 0.875em;
+
+}
+body{
+	/*字体大小是页面默认大小的100%*/
+	font: normal 100% \5FAE\8F6F\96C5\9ED1; 
+	background-color: #eee;
+    margin:0 auto;
+    width:100%;
+    max-width:640px;
+    min-width:320px;
+    font-size:0.15em;
+   
+}
+html, body {
+    height:100%;
+}
+small {
+	/*small元素的大小是默认大小的0.875倍，即14像素（14/16=0.875）*/
+	font-size: 0.875em;
+
+}
+
+/*页面头部*/
+header{
+	background-color: #222;
+	color: #eee;
+    font-size: 1.2em;
+    max-width:640px;
+    min-width:320px;
+    padding:0.1rem 0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:999;
+}
+    header h1 {
+        /*font-size: 0.16rem;*/
+        display:inline-block;
+        padding-left: 0.1rem;
+        vertical-align:middle;
+    }
+ 
+    header a img {
+        vertical-align:middle;
+        zoom: 0.8;
+        padding: 0 0.1rem;
+    }
+header .head-title{
+	/*font-size: 1.2em;
+	float: left;
+	margin:0.2em 0 0 1em;*/
+    display: inline-block;
+    border-left: 1px solid #000;
+    padding-left: 0.1rem;
+}
+    header a.ui-header-r {
+        position: absolute;
+        right: 0.1rem;
+        top: 0;
+        display: block;
+        line-height: 0.4rem;
+    }
+
+.content {      
+     position:relative;
+     min-height:100%;
+}
+main {
+ padding-top:48px;
+ padding-bottom:65px;
+ overflow: auto;
+}
+
+/*页脚*/
+.footer {
+    width: 100%;
+    max-width:640px;
+    min-width:320px;
+    position:fixed;
+    bottom:0;
+    /*border:1px solid red;*/
+    /*left:0;*/
+}
+.footer .link{
+	background-color: #fff;
+	/*width: 100%;
+	height: 9%;*/
+	border-top: 1px solid #ddd;
+    text-align:center;
+}
+.footer figure{
+	display: inline-block;
+	/*width: 23%;*/
+
+	/*padding:0;*/
+	margin:0.5em 1em;
+	color: #ddd;
+	text-align: center;
+}
+.footer img{
+	/*width: 100%;*/
+	/*max-width: 100%;*/
+	/*height: 100%;*/
+}
+.footer figcaption{
+	font-size: 0.75em;
+}
+
+.footer figcaption .red-cir{
+	display: inline-block;
+	font-size: 0.2em;
+	color: #fff;
+	width: 13px;
+	text-align: center;
+	background-color: red;
+	border-radius: 0.75em;
+	position: absolute;
+	top: 0;
+	left: 3.7em;
+}
+.footer  a{
+    display: inline-block;
+	text-decoration: none;
+	color: #c8c8c8;
+    width:24%;
+}
+
+.footer  a figcaption.click{
+	color: #59b200;
+}
+
+/*聊天气泡*/
+.talk-item {
+    clear:both;
+    color:#001511;
+    /*margin-top:0.1rem;
+    margin-bottom:0.8rem;*/
+}
+    .talk-item div:first-child img {
+        width:100%;
+    }
+
+.talk-items-l div:nth-of-type(1){
+    float:left;
+}
+.talk-items-l div:nth-of-type(2) {
+    background-color:#fff;
+    float:left;
+    padding:0.1rem;
+    border-radius:7px;
+    margin:0.1rem 0 0 0.08rem;
+}
+
+.talk-items-r div:nth-child(1){
+    float:right;
+}
+.talk-items-r div:nth-of-type(2) {
+    float:right;
+    background-color:#3DCE3D;
+    padding:0.1rem;
+    border-radius:7px;
+    margin:0.1rem 0.08rem 0 0;
+}
+.talk-item div:nth-child(2) {
+    max-width:50%;
+}
+.left_triangle {
+    border-width:8px;
+    border-style:solid;
+    border-color:transparent #fff transparent transparent;
+    position:relative;
+    right:0.255rem;
+    top:0.1rem;
+}
+.right_triangle {
+    border-width:8px;
+    border-style:solid;
+    border-color:transparent transparent transparent #3DCE3D;
+    position: relative;
+    top: 0.05rem;
+    left: 0.25rem;
+
+}

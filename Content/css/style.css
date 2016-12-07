@@ -1,0 +1,372 @@
+﻿@charset "utf-8";
+.ui-page {
+    display:none;
+}
+.ui-page-active {
+    display:block;
+}
+/*通讯录*/
+.list{
+	font-size: 1em;
+	color: #666;
+}
+/*导航*/
+.contacts .nav{
+	width: 100%;
+	/*height: 34%;*/
+	background-color: #fff;
+}
+.contacts .nav li{
+	list-style: none;
+	padding: .1rem 0 0.1rem 0.3rem;
+	margin: 0.3em 0.4em;
+	border-bottom: 1px solid #c8c8c8;
+}
+.contacts .nav .frnd{
+	background: url(../img/frnd.png) no-repeat left;
+}
+.contacts .nav .talk{
+	background: url(../img/talk.png) no-repeat left;
+}
+.contacts .nav .label{
+	background: url(../img/label.png) no-repeat left;
+}
+.contacts .nav .pub{
+	background: url(../img/pub.png) no-repeat left;
+}
+.contacts .nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding:0.05rem;
+	color: #666;
+}
+.contacts .friend{
+	/*position: absolute;
+	top: 45.5%;
+	left: 0;*/
+	/*width: 100%;*/
+	/*height: 50%;*/
+}
+.friend .frnda, .friend .frndb{
+	background-color: #fff;
+	margin-top: 0.15em;
+}
+.friend li{
+	list-style: none;
+	padding: 0.1rem 0 0.1rem 0.3rem;
+	margin: 0.3em 0.4em;
+	border-bottom: 1px solid #c8c8c8;
+}
+.friend h2 {
+    margin: 0.3em 0.4em;
+}
+.friend .frnda .zhshn{
+	background: url(../img/zhshn.png) no-repeat left;
+}
+.friend .frnda .lisi{
+	background: url(../img/lisi.png) no-repeat left;
+}
+.friend .frndb .wngwu{
+	background: url(../img/wngwu.png) no-repeat left;
+}
+.friend .frndb .maliu{
+	background: url(../img/maliu.png) no-repeat left;
+}
+.friend  a{
+	display: inline-block;
+	text-decoration: none;
+	/*width: 100%;
+	height: 200%;
+	line-height: 200%;*/
+    padding:0.05rem;
+	color: #666;
+}
+
+/*微信*/
+
+   header .search-add {
+        float:right;
+        padding-right:0.2rem;
+        
+    }
+        header .search-add .search {
+            margin-right: 0.5rem;
+        }
+        header .search-add img {
+            vertical-align: middle;
+            
+        }
+.weixin{
+	background-color: #fff;
+}
+.weixin .info{
+	border-bottom: 1px solid #c8c8c8;
+}
+ .weixin .info .frist-item {
+        margin-top:0 !important;
+    }
+.weixin .info a.items{
+    display:block;
+	width: 100%;
+	/*height: 82%;*/
+	padding: 0.4em 0.6em;
+	font-size: 0.8em;
+    text-decoration: none;
+    color: #c8c8c8;
+}
+   
+.weixin .info .photo{
+	display: inline-block;
+	position: relative;
+}
+.weixin .info .photo .red-cir{
+	display: inline-block;
+	font-size: 0.25em;
+	color: #fff;
+	width: 28%;
+	text-align: center;
+	background-color: red;
+	border-radius: 0.75em;
+	position: absolute;
+	top: -0.5em;
+	right: -0.8em;
+}
+.weixin .info .content{
+	display: inline-block;
+	/*width: 59%;
+	height: 95%;*/
+	margin-left: 0.8em;
+}
+.weixin .info .content h1{
+	font-size: 1.5em;
+	margin-bottom: 0.25em;
+}
+.weixin .info .content p{
+	color: #c8c8c8;
+    width: 15em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+
+.weixin .info .tips{
+	width: 21%;
+	/*height: 95%;*/
+	float: right;
+	position: relative;
+}
+.weixin .info .tips time{
+	position: absolute;
+	top: 0;
+	right: 0.5em;
+	color: #c8c8c8;
+}
+.weixin .info .tips img{
+	position: absolute;
+	right: 0.5em;
+	bottom: -4em;
+}
+/*发现*/
+/*.discover{
+	width: 100%;
+	height: 81%;
+	font-size: 1em;
+}*/
+.discover .circle,.discover .people, .discover .shake,.discover .leisure{
+	background-color: #fff;
+	/*width: 100%;*/
+	margin-top: 1em;
+	border-bottom: 1px solid #c8c8c8;
+}
+/*.discover .circle,.discover .people{
+	height: 10%;
+}*/
+
+.discover .shake,.discover .leisure{
+	/*height: 20%;*/
+}
+.discover li{
+	list-style: none;
+	padding: 0.05rem 0 0.05rem 0.3rem;
+	margin: 0.4em 0 0.4em 0.8em;
+}
+.discover .sweep, .discover .buy{
+	border-bottom: 1px solid #c8c8c8;
+}
+.discover .cir{
+	background: url(../img/circle.png) no-repeat left;
+}
+.discover .sweep{
+	background: url(../img/sweep.png) no-repeat left;
+}
+.discover .shke{
+	background: url(../img/shke.png) no-repeat left;
+}
+.discover .peop{
+	background: url(../img/peop.png) no-repeat left;
+}
+.discover .buy{
+	background: url(../img/buy.png) no-repeat left;
+}
+.discover .game{
+	background: url(../img/game.png) no-repeat left;
+}
+.discover a{
+	display: inline-block;
+	text-decoration: none;
+	/*width: 100%;
+	line-height: 200%;*/
+    padding:0.05rem 0;
+	color: #666;
+}
+/*我*/
+/*.my{
+	position: absolute;
+	top: 10%;
+	left: 0;
+	width: 100%;
+	height: 81%;
+	font-size: 1em;
+}*/
+.my .me, .my .plea,.my .shop, .my .fce,.my .st{
+	background-color: #fff;
+	/*width: 100%;*/
+	margin-top: 1em;
+	border-bottom: 1px solid #c8c8c8;
+}
+.my .me{
+	/*height: 18%;*/
+	position: relative;
+}
+/*.my .plea{
+	height: 20%;
+}*/
+/*.my .shop,.my .fce, .my .st{
+	height: 10%;
+}*/
+
+.my .me li{
+	display: inline-block;
+	overflow:hidden;
+	/*height: 50px;*/
+	line-height: 0.5rem;
+	list-style: none;
+	padding: 3px 0 1px 4em;
+	margin: 0.5em 0 0.4em 1em;
+}
+.my .me img{
+	position: absolute;
+    top: 0.3rem;
+    right: 0.05rem;
+}
+.my .plea li,.my .shop li, .my .fce li,.my .st li{
+	list-style: none;
+	padding: 3px 0 1px 1.7em;
+	margin: 0.4em 0 0.4em 0.8em;
+}
+
+.my .photo{
+	border-bottom: 1px solid #c8c8c8;
+}
+.my .wo{
+	background: url(../img/me.png) no-repeat left;
+}
+.my .photo{
+	background: url(../img/photo.png) no-repeat left;
+}
+.my .cellect{
+	background: url(../img/cellect.png) no-repeat left;
+}
+.my .wallet{
+	background: url(../img/wallet.png) no-repeat left;
+}
+.my .face{
+	background: url(../img/face.png) no-repeat left;
+}
+.my .set{
+	background: url(../img/set.png) no-repeat left;
+}
+.my a{
+    display:inline-block;
+	text-decoration: none;
+    padding:0.05rem 0;
+	/*width: 100%;
+	line-height: 200%;*/
+	color: #666;
+}
+.my .st li{
+	display: inline-block;
+}
+.my .st p{
+	display: inline-block;
+	float: right;
+	position: absolute;
+	top: 26.5em;
+	right: 0;
+	font-size: 0.7em;
+	color: #c8c8c8;
+}
+
+/*个人信息*/
+
+
+/*个人信息--头部*/
+
+.self-content ul{
+    margin-top:0.15rem;
+    background-color:#fff;
+}
+.self-content li {
+    list-style: none;
+    padding: 0.15rem 0.1rem;
+    /*margin: 0.1rem 0 0.1rem 0.8em;*/ 
+}
+    .self-content li:not(:first-child) {
+        border-top:1px solid #c8c8c8;
+    }
+    .self-content li a {
+        text-decoration:none;
+        color:#666;
+    }
+        .self-content li.portrait {
+            /*padding: 0.4em 0 2.5em 0.8em;*/
+            line-height: 0.55rem;
+        }
+.self-content li .rght {
+    display:inline-block;
+    float: right;
+    /*padding-right:0.06rem;*/
+}
+/*聊天界面*/
+.talk main{
+    text-align:center;
+    
+}
+    .talk .tips, .talk .time {
+        display:inline-block;
+        background-color:#CECECE;
+        margin-top:0.1rem;
+        border-radius:0.03rem;
+    }
+.talk .footer {
+    background-color:#fff;
+}
+    .talk .footer div {
+        padding:0.06rem;
+    }
+    .talk .footer img{
+        vertical-align:middle;
+    }
+    .talk .footer input {
+        vertical-align:bottom;
+        line-height:0.22rem;
+        border-top:none;
+        border-left:none;
+        border-right:none;
+    }
+        .talk .footer input[type="text"]:hover {
+            border-top:none;
+        border-left:none;
+        border-right:none;
+        }
